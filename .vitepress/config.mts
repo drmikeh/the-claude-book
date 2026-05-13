@@ -23,6 +23,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+
+    footer: {
+      message: 'Built with Claude Code',
+      copyright: 'Copyright © 2026 Anthropic'
+    }
   }
 })
