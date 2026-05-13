@@ -6,13 +6,19 @@ hero:
     name: 'The Claude Book'
     text: 'Mastering Claude Code and Cowork'
     tagline: From beginner to Claude Expert.
+    image:
+        src: claude-ai.svg
+        alt: Claude
     actions:
         - theme: brand
-          text: Markdown Examples
-          link: /markdown-examples
+          text: Docs
+          link: /docs
         - theme: alt
-          text: API Examples
-          link: /api-examples
+          text: Glossary
+          link: /glossary
+        - theme: alt
+          text: Illustrations
+          link: /illustrations
 
 features:
     - title: Learn the basics of Claude Code and Cowork
