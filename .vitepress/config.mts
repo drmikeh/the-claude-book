@@ -31,37 +31,60 @@ export default defineConfig({
         sidebar: [
             {
                 text: 'Getting Started',
+                // collapsed: false,
                 items: [
                     { text: 'Welcome', link: '/docs/getting-started/welcome' },
                     { text: 'AI Fundamentals', link: '/docs/getting-started/ai-fundamentals' },
                     { text: 'The CLAUDE.md File', link: '/docs/getting-started/claude-md-file' },
-                    { text: 'The Claude CLI', link: '/docs/getting-started/claude-cli' },
                 ],
             },
             {
-                text: 'Claude Code Basics',
-            },
-            {
-                text: 'The Skills Hall of Fame',
+                text: 'The Claude Code CLI',
+                // collapsed: true,
                 items: [
-                    { text: 'The Superpowers Plugin Skills', link: '/docs/skills-hof/superpowers-plugin' },
-                    { text: 'Matt Pocock Skills', link: '/docs/skills-hof/matt-pocock-skills' },
+                    { text: 'Installation', link: '/docs/claude-code-cli/installation' },
+                    { text: 'Getting Started', link: '/docs/claude-code-cli/getting-started' },
                 ],
             },
-
+            {
+                text: 'Skills',
+                // collapsed: true,
+                items: [
+                    { text: 'How Skills Work', link: '/docs/skills/intro' },
+                    { text: 'Writing Skills', link: '/docs/skills/writing' },
+                    { text: 'Hooks', link: '/docs/skills/hooks' },
+                    { text: 'Tool Use', link: '/docs/skills/tool-use' },
+                ],
+            },
+            {
+                text: 'Skills Hall of Fame',
+                // collapsed: true,
+                items: [
+                    { text: 'Matt Pocock Skills', link: '/docs/skills/hof/matt-pocock' },
+                    { text: 'Anthropic Superpowers Plugin', link: '/docs/skills/hof/superpowers-plugin' },
+                    { text: 'Boris Cherny Skills', link: '/docs/skills/hof/boris-cherny' },
+                ],
+            },
             {
                 text: 'Advanced Claude Code Topics',
-                items: [{ text: 'GitHub Integration', link: '/docs/advanced/github-integration' }],
+                // collapsed: true,
+                items: [
+                    { text: 'GitHub Integration', link: '/docs/advanced/github-integration' },
+                    { text: 'Advisor Tool', link: '/docs/advanced/advisor-tool' },
+                    { text: 'Prompt Caching', link: '/docs/advanced/prompt-caching' },
+                ],
             },
             {
                 text: 'Claude Cowork Basics',
             },
             {
                 text: 'Reference',
+                // collapsed: true,
                 items: [{ text: 'Config Files', link: '/docs/reference/config-files' }],
             },
             {
                 text: 'Examples',
+                // collapsed: true,
                 items: [
                     { text: 'Markdown Examples', link: '/markdown-examples' },
                     { text: 'Runtime API Examples', link: '/api-examples' },

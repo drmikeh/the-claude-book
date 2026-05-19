@@ -7,6 +7,9 @@ outline: [2, 4]
 
 The `CLAUDE.md` file provides a location to define rules, guidelines, and policies that you want Claude to follow. These "instructions" cut across all prompts and skills. Sometimes these instructions are called a "Constitution", which is a good analogy. These instructions are considered non-negotiable.
 
+> [!TIP]
+> The `CLAUDE.md` is analogous to the `AGENTS.md` file for other AI tools, such as Codex, Cursor, Copilot, and Windsurf. If you want to work with multiple AI tools, you can create a `CLAUDE.md` file and then a symbolic link from that to the `AGENTS.md` file.
+
 Claude Code reads your global and project-scoped `CLAUDE.md` files at the start of every session, and becomes part of Claude's system prompt. Every conversation starts with this context already loaded, eliminating the need to explain basic project information repeatedly.
 
 ## Why It Exists
@@ -44,10 +47,10 @@ The global instructions should be agnostic of any project-specific requirements,
 
 Thus global instructions should define the highest policies, such as how Claude should behave in general. A good starting point is to consider Andrej Karpathy's `CLAUDE.md` guidelines:
 
-1. Think before coding
-2. Favor simplicity
-3. Make only surgical changes
-4. Be goal-driven
+1. Think before coding (Don’t assume. Don’t hide confusion. Surface tradeoffs)
+2. Favor simplicity (Minimum code that solves the problem. Nothing speculative)
+3. Make only surgical changes (Touch only what you must. Clean up only your own mess)
+4. Be goal-driven (avoid vague plans with no verification)
 
 Below is a `CLAUDE.md` file that captures these principals.
 

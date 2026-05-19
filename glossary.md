@@ -28,6 +28,10 @@ The maximum amount of text (measured in tokens) a model can process at once. Eve
 
 The input provided to a language model — instructions, questions, examples, or any combination. Prompt engineering is the practice of crafting inputs that reliably produce desired outputs.
 
+## Prompt Caching
+
+**Prompt caching** is an Anthropic API feature that lets you cache large, reused portions of a prompt (system prompts, documents, few-shot examples) so that subsequent requests referencing that cached content are faster and cheaper.
+
 ## System Prompt
 
 A special prompt, typically invisible to end users, that sets the model's persona, rules, and behavioral constraints for a session. It's the first thing in the context window and has high influence over model behavior.
