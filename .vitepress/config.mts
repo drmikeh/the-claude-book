@@ -6,6 +6,10 @@ export default defineConfig({
     title: 'The Claude Book',
     description: 'Mastering Claude Code and Cowork',
     markdown: {
+        theme: {
+            light: 'github-dark',
+            dark: 'github-dark',
+        },
         config: (md) => {
             // Use lightbox plugin
             md.use(lightbox, {});

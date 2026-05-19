@@ -163,6 +163,12 @@
     --vp-code-block-bg: #261a14;
     --vp-code-block-color: #f5ede3;
     --vp-code-line-highlight-color: rgba(217, 119, 87, 0.12);
+
+    /* lang label and code-group tabs sit on the dark block bg even in light mode */
+    --vp-code-lang-color: #c8b09a;
+    --vp-code-tab-text-color: #c8b09a;
+    --vp-code-tab-hover-text-color: #f5ede3;
+    --vp-code-tab-active-text-color: #f5ede3;
 }
 
 .dark {
