@@ -92,7 +92,7 @@ export default defineConfig({
             },
         ],
 
-        socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+        socialLinks: [{ icon: 'github', link: 'https://github.com/drmikeh/the-claude-book' }],
 
         footer: {
             // message: 'Built with assistance from Claude Code',
