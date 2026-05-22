@@ -8,20 +8,20 @@ hero:
 features:
     - title: Skills
       details: Skills are like recipes, they are instructions for how to do things.
-      link: /docs/skills/intro
+      link: /skills/intro
     - title: Installing Skills
       details: You can install a single skill or a set of skills via a plugin.
-      link: /docs/skills/installing
+      link: /skills/installing
     - title: Using Skills
       details: Skills can be invoked implicitly or explicitly.
-      link: /docs/skills/using
+      link: /skills/using
     - title: Writing Skills
       details: Best practices for writing effective skills
-      link: /docs/skills/writing
+      link: /skills/writing
     - title: Hooks
       details: How to trigger work based on Claude events
-      link: /docs/skills/hooks
+      link: /skills/hooks
     - title: The Skills Hall of Fame
       details: See how AI leaders write their skills
-      link: /docs/skills/hof
+      link: /skills/hof
 ---

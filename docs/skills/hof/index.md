@@ -8,11 +8,11 @@ hero:
 features:
     - title: Matt Pocock Skills
       details: Matt Pocock skills
-      link: /docs/skills/hof/matt-pocock
+      link: /skills/hof/matt-pocock
     - title: Anthropic Superpowers Plugin
       details: A set of skills for Software Development Workflows
-      link: /docs/skills/hof/superpowers-plugin
+      link: /skills/hof/superpowers-plugin
     - title: Boris Cherny Skills
       details: See how the creator of Claude Code writes and uses skills
-      link: /docs/skills/hof/boris-cherny
+      link: /skills/hof/boris-cherny
 ---

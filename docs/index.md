@@ -12,7 +12,7 @@ hero:
     actions:
         - theme: brand
           text: Docs
-          link: /docs/getting-started/welcome
+          link: /getting-started/welcome
         - theme: alt
           text: Glossary
           link: /glossary
