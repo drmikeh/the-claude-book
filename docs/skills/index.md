@@ -3,12 +3,18 @@ layout: home
 
 hero:
     name: 'Skills'
-    tagline: Learn how skills work and how to write and use them.
+    tagline: Learn how skills work and how to use and write them.
 
 features:
-    - title: How Skills Work
+    - title: Skills
       details: Skills are like recipes, they are instructions for how to do things.
-      link: /docs/skills/welcome
+      link: /docs/skills/intro
+    - title: Installing Skills
+      details: You can install a single skill or a set of skills via a plugin.
+      link: /docs/skills/installing
+    - title: Using Skills
+      details: Skills can be invoked implicitly or explicitly.
+      link: /docs/skills/using
     - title: Writing Skills
       details: Best practices for writing effective skills
       link: /docs/skills/writing

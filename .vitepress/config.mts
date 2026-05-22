@@ -25,6 +25,7 @@ export default defineConfig({
             {
                 text: 'Illustrations',
                 items: [
+                    { text: 'Key Components of Modern AI', link: '/illustrations/key-components' },
                     { text: 'Agentic Kitchen', link: '/illustrations/agentic-kitchen' },
                     { text: 'Where Agents Run', link: '/illustrations/where-agents-run' },
                 ],
@@ -48,16 +49,19 @@ export default defineConfig({
                 items: [
                     { text: 'Installation', link: '/docs/claude-code-cli/installation' },
                     { text: 'Getting Started', link: '/docs/claude-code-cli/getting-started' },
+                    { text: 'Choosing a Model', link: '/docs/claude-code-cli/choosing-a-model' },
                 ],
             },
             {
                 text: 'Skills',
                 // collapsed: true,
                 items: [
-                    { text: 'How Skills Work', link: '/docs/skills/intro' },
+                    { text: 'Skills', link: '/docs/skills/intro' },
+                    { text: 'Installing Skills', link: '/docs/skills/installing' },
+                    { text: 'Using Skills', link: '/docs/skills/using' },
                     { text: 'Writing Skills', link: '/docs/skills/writing' },
                     { text: 'Hooks', link: '/docs/skills/hooks' },
-                    { text: 'Tool Use', link: '/docs/skills/tool-use' },
+                    // { text: 'Tool Use', link: '/docs/skills/tool-use' },
                 ],
             },
             {
@@ -85,14 +89,6 @@ export default defineConfig({
                 text: 'Reference',
                 // collapsed: true,
                 items: [{ text: 'Config Files', link: '/docs/reference/config-files' }],
-            },
-            {
-                text: 'Examples',
-                // collapsed: true,
-                items: [
-                    { text: 'Markdown Examples', link: '/markdown-examples' },
-                    { text: 'Runtime API Examples', link: '/api-examples' },
-                ],
             },
         ],
 

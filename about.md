@@ -4,6 +4,10 @@ layout: home
 hero:
     name: 'Dr. Mike Hopper'
     tagline: I'm a Software Engineer, Technologist and Technology Educator specializing in Enterprise Level Software Development, Cloud Computing, and Generative AI.
+    image:
+        src: Mike-2024.png
+        size: 400
+        alt: Dr. Mike
 ---
 
 # About Me

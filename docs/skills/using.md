@@ -3,6 +3,6 @@ layout: doc
 outline: [2, 4]
 ---
 
-# What Are Skills?
+# Using Skills
 
 Coming soon...

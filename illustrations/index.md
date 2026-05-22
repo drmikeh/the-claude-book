@@ -7,6 +7,9 @@ hero:
     tagline: Below is a collection of illustrations.
 
 features:
+    - title: Key Components
+      details: The key components of modern generative AI
+      link: /illustrations/key-components
     - title: Agentic Kitchen
       details: Agents are like chefs in a kitchen. They need recipes (skills), ingredients (context), and cooking utensils (tools).
       link: /illustrations/agentic-kitchen
