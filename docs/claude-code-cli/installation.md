@@ -1,4 +1,9 @@
-## Installation
+---
+layout: doc
+outline: [2, 4]
+---
+
+# Installation
 
 There are multiple ways to install the `claude` CLI:
 

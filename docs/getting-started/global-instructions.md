@@ -15,8 +15,8 @@ The `~/.claude/CLAUDE.md` file serves as global memory for Claude Code, applying
 
 The global instructions for Claude Code should:
 
-* define the highest policies, such as how Claude should behave in general.
-* be agnostic of any project-specific requirements, such as tech stack rules and guidelines, which are better defined at project scope.
+- define the highest policies, such as how Claude should behave in general.
+- be agnostic of any project-specific requirements, such as tech stack rules and guidelines, which are better defined at project scope.
 
 ### Sample Global CLAUDE.md File
 

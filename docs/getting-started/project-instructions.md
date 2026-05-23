@@ -5,6 +5,9 @@ outline: [2, 4]
 
 # Project Scoped Instructions
 
+> [!TIP]
+> `CLAUDE.md` is Claude's instruction file. Treat it like its AI’s onboarding doc.
+
 Project-scoped instructions are stored in the `CLAUDE.md` file at the root of the project. This is where you define rules, guidelines, and policies that you want Claude Code to follow. These "instructions" cut across all prompts and skills. Sometimes these instructions are called a "Constitution", which is a good analogy, since these instructions are considered non-negotiable.
 
 Claude Code reads your global and project-scoped `CLAUDE.md` files at the start of every session, and becomes part of Claude's system prompt. Every conversation starts with this context already loaded, eliminating the need to explain basic project information repeatedly.
@@ -65,8 +68,8 @@ Another option is to put generic instructions in `AGENTS.md` and Claude specific
 # CLAUDE.md
 
 ## First import the generic AGENTS.md file
+
 @AGENTS.md
 
 ## Add Claude-specific instructions here
-
 ```

@@ -186,7 +186,7 @@ Two mechanisms:
 
 Two cost dimensions to track: GitHub Actions runner minutes, and Anthropic API token usage (which varies by task complexity and codebase size). Use `--max-turns` in `claude_args` to cap iterations and prevent runaway jobs.
 
-# TL;DR
+## TL;DR
 
 | Question                         | Answer                                                      |
 | -------------------------------- | ----------------------------------------------------------- |
