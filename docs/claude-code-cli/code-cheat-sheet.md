@@ -7,6 +7,8 @@ outline: [2, 4]
 
 > **Last updated:** May 2025 · [Official Docs](https://code.claude.com/docs/en/overview)
 
+A PDF version of this cheat sheet can be found [here](/code-cheat-sheet.pdf){target="_blank"}.
+
 ## 🚀 CLI — Session Management
 
 Commands run from your terminal to start and manage sessions.

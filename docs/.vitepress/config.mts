@@ -154,6 +154,10 @@ export default defineConfig({
                         text: 'Config Files',
                         link: '/reference/config-files',
                     },
+                    {
+                        text: 'More Config',
+                        link: '/reference/more-config',
+                    },
                 ],
             },
         ],
