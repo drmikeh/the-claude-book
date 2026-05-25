@@ -26,6 +26,6 @@ Claude Code has **four modes**, cycled via `Shift+Tab`. The current mode is alwa
 - **Set a default**: `claudeCode.initialPermissionMode` in VS Code settings
 - **CLI flag**: `--dangerously-skip-permissions` (headless/CI use cases)
 
-### Recommended workflow
+## Recommended workflow
 
 The workflow Boris Cherny (Claude Code's creator) uses: start in **Plan mode**, iterate on the plan until it's right, then switch to **Accept edits** or **Auto** to execute. This gives you a single high-level review gate rather than approving actions one at a time mid-execution — especially valuable for complex features, large multi-file refactors, or anything involving security (auth, payments, etc.).
