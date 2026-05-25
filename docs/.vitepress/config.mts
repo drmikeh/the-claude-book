@@ -1,5 +1,5 @@
-import { defineConfig } from 'vitepress';
-import lightbox from 'vitepress-plugin-lightbox';
+import { defineConfig } from 'vitepress'
+import lightbox from 'vitepress-plugin-lightbox'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -10,9 +10,9 @@ export default defineConfig({
             light: 'github-dark',
             dark: 'github-dark',
         },
-        config: (md) => {
+        config: md => {
             // Use lightbox plugin
-            md.use(lightbox, {});
+            md.use(lightbox, {})
         },
     },
     themeConfig: {
@@ -81,6 +81,14 @@ export default defineConfig({
                     {
                         text: 'Setting Permissions',
                         link: '/claude-code-cli/setting-permissions',
+                    },
+                    {
+                        text: 'Claude Code Modes',
+                        link: '/claude-code-cli/modes',
+                    },
+                    {
+                        text: 'Managing Context',
+                        link: '/claude-code-cli/managing-context',
                     },
                 ],
             },
@@ -170,4 +178,4 @@ export default defineConfig({
             copyright: 'Copyright © 2026 Dr. Mike Hopper',
         },
     },
-});
+})
