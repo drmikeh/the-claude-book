@@ -90,6 +90,10 @@ export default defineConfig({
                         text: 'Managing Context',
                         link: '/claude-code-cli/managing-context',
                     },
+                    {
+                        text: 'Claude Code Cheat Sheet',
+                        link: '/claude-code-cli/code-cheat-sheet',
+                    },
                 ],
             },
             {
