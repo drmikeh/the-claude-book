@@ -82,6 +82,10 @@ export default defineConfig({
                         text: 'Setting Permissions',
                         link: '/claude-code-cli/setting-permissions',
                     },
+                    {
+                        text: 'Claude Code Cheat Sheet',
+                        link: '/claude-code-cli/code-cheat-sheet',
+                    },
                 ],
             },
             {
