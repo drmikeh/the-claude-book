@@ -24,6 +24,10 @@ The accumulated information available to a model during inference, typically hel
 
 The maximum amount of text (measured in tokens) a model can process at once. Everything outside this window is invisible to the model. Longer context windows allow richer, longer-running conversations and larger document inputs.
 
+## Hook
+
+A user-defined handler that runs automatically at a fixed point in Claude Code's lifecycle — think of it as an event listener for the agent loop.
+
 ## Prompt
 
 The input provided to a language model — instructions, questions, examples, or any combination. Prompt engineering is the practice of crafting inputs that reliably produce desired outputs.
